@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ai Api", "Ai Api.csproj", "{8FA8D26E-EAD8-4D84-9C27-9C3C5B52162A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{8D7155D5-AD2D-470E-A0DA-0A6F9DE1C47C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA8D26E-EAD8-4D84-9C27-9C3C5B52162A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA8D26E-EAD8-4D84-9C27-9C3C5B52162A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA8D26E-EAD8-4D84-9C27-9C3C5B52162A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA8D26E-EAD8-4D84-9C27-9C3C5B52162A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7155D5-AD2D-470E-A0DA-0A6F9DE1C47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7155D5-AD2D-470E-A0DA-0A6F9DE1C47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7155D5-AD2D-470E-A0DA-0A6F9DE1C47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7155D5-AD2D-470E-A0DA-0A6F9DE1C47C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54AB1B32-162D-4B1F-B920-3F248F36AFEB}
+	EndGlobalSection
+EndGlobal
