@@ -14,7 +14,7 @@ namespace Ai_Api.Controllers
         {
             _geminiService = geminiService;
         }
-
+        
         [HttpPost("generate")]
         public async Task<IActionResult> Generate(
             [FromBody] Dtos.AiGenerateRequest request)
@@ -37,11 +37,12 @@ namespace Ai_Api.Controllers
 
                 return Content(result, "application/json");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return StatusCode(500, new
                 {
-                    error = "An unexpected error occurred."
+                    error = ex.Message,
+                    details = ex.InnerException?.Message
                 });
             }
         }
