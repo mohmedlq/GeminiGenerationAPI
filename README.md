@@ -94,7 +94,7 @@ Client Application
 
 ### Deployment
 
-* MonsterASP.NET
+* Somee.com
 * GitHub
 
 ---
