@@ -326,23 +326,5 @@ This project was built as a reusable AI backend service and as a practical demon
 
 ## License
 
-This project is currently private and intended for personal development and portfolio use.
-
-````
-
-### ملاحظة مهمة جدًا عن موضوع الـ Tokens
-
-كون الـ repo **Private ممتاز**، لكن **لا تعتمد على Private Repository كوسيلة لحماية الـ API Key**.
-
-أنت حاليًا سويت الشيء الصح أصلًا:
-
-```text
-User Secrets
-     ↓
-Local development
-
-Environment Variable
-     ↓
-Production
-````
+This project is currently private and intended for personal development However you can mock it and add your personal Api Key.
 
